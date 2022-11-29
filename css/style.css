@@ -95,7 +95,7 @@ img {
   max-height: 56px;
   padding-top: 16px;
   padding-bottom: 19px;
-
+  cursor: pointer;
 }
 
 .main__logo{
@@ -104,6 +104,10 @@ img {
 
 .header__btn{
   width: 177px;
+}
+
+.about-us__btn{
+  width: 218px;
 }
 
 .btn__link{
@@ -152,4 +156,40 @@ margin-right: 69px;
   justify-content: center;
   align-items: center;
 
+}
+
+.about-us{
+  background-color:var(--bcg2-color);
+  max-height:1225px ;
+  height: 100vw;
+  max-width: 100%;
+  width: 100%;
+}
+
+.about-us__main{
+
+
+}
+
+.about-us__left{
+  display: flex;
+  margin-left: 35px;
+  padding-top: 278px;
+  flex-direction: column;
+}
+
+.Complete{
+max-width: 420px;
+width: 100%;
+max-height: 180px;
+height: 100%;
+margin-bottom: 44px;
+}
+
+.Oversee{
+  max-width: 347px;
+  width: 100%;
+  max-height: 62px;
+  height: 100%;
+  margin-bottom: 26px;
 }

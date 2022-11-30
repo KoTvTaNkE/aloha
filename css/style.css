@@ -106,6 +106,10 @@ img {
   width: 177px;
 }
 
+.product__btn{
+  width: 243px;
+}
+
 .about-us__btn{
   width: 218px;
 }
@@ -166,10 +170,6 @@ margin-right: 69px;
   width: 100%;
 }
 
-.about-us__main{
-
-
-}
 
 .about-us__left{
   display: flex;
@@ -179,17 +179,60 @@ margin-right: 69px;
 }
 
 .Complete{
-max-width: 420px;
-width: 100%;
-max-height: 180px;
-height: 100%;
+
+width: 420px;
+
+height: 180px;
 margin-bottom: 44px;
 }
 
 .Oversee{
-  max-width: 347px;
+  width: 347px;
+
+  height: 62px;
+
+  margin-bottom: 16px;
+}
+
+.about-us__top{
+  display: flex;
+
+}
+
+.about-us__right{
+  display: flex;
+  max-width: 633px;
   width: 100%;
-  max-height: 62px;
+  max-height: 615px;
   height: 100%;
-  margin-bottom: 26px;
+  margin-top: 179px;
+  margin-left: 150px;
+}
+
+.about-us__bot{
+  display: flex;
+  align-content: center;
+  margin-left: 102px;
+  margin-right:132px;
+
+}
+
+
+.about-usBot__item{
+  display: flex ;
+  margin-right: 130px;
+  margin-top: 181px;
+  align-items: center;
+
+}
+
+.about-usBot__item:last-child{
+  margin-right: 0;
+}
+
+.product{
+  max-height:728px ;
+  height: 100vw;
+  max-width: 100%;
+  width: 100%;
 }

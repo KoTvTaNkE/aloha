@@ -118,6 +118,20 @@ img {
   cursor: pointer;
   border: none;
 }
+.btnhover1:hover {
+  background-color: #101c21;
+}
+
+.btnhover2:hover {
+  background-color: #878d90;
+}
+
+.poisk:hover {
+  background-color: #878d90;
+}
+.linkhover:hover {
+  color: #878d90;
+}
 
 .header__btn {
   width: 213px;
@@ -168,7 +182,10 @@ img {
 .poisk {
   border: 1px solid var(--bcg3-color);
   border-radius: 360px;
-  padding: 17.7px;
+  padding-left: 17px;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-right: 17px;
 
   margin-right: 15px;
 }
@@ -476,7 +493,7 @@ img {
   color: #283337;
 }
 .starth2 {
-  margin-left: 50px;
+  margin-left: 54px;
 }
 .footer {
   height: 639px;
@@ -506,7 +523,7 @@ img {
 }
 
 .footertextclr3 {
-  color: #cfd2d3;
+  color:  #CFD2D3;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -594,7 +611,7 @@ img {
 .footer__bot {
   margin-top: 214px;
   display: flex;
-  height: 16px;
+  height: 30px;
   width: 1440px;
 }
 
@@ -613,6 +630,7 @@ img {
 .footerbot__text1 {
   display: flex;
   margin-left: 405px;
+
 }
 
 .footerbottext1 {
@@ -621,11 +639,16 @@ img {
 
 .footertexttypebot {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 15px;
   color: #9fa4a6;
+  margin: 0;
 }
 
 .footerbottext3 {
   margin-left: 184px;
+}
+
+.mrg0{
+  margin: 0;
 }

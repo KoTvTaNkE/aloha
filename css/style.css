@@ -133,6 +133,13 @@ img {
   color: #878d90;
 }
 
+.btn:active{
+  max-height: 59px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+
+}
+
 .header__btn {
   width: 213px;
 }

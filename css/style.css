@@ -44,7 +44,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 60px;
   text-align: left;
   vertical-align: top;
@@ -57,7 +57,7 @@ img {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 60px;
   text-align: left;
   vertical-align: top;
@@ -70,7 +70,7 @@ img {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 33px;
+  font-size: 2.0625rem;
   line-height: 36px;
 
   color: var(--text-color);
@@ -81,7 +81,7 @@ img {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 1.3125rem;
   line-height: 31px;
   color: #40494d;
   margin: 0;
@@ -295,7 +295,7 @@ img {
 }
 
 .product__text1 {
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .product__text2 {
@@ -340,7 +340,7 @@ img {
 
 .productRight__lm2 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 36px;
 }
 
@@ -388,7 +388,7 @@ img {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 70px;
   text-align: center;
 }
@@ -423,7 +423,7 @@ img {
 
 .kionlefttext {
   font-weight: 400;
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -525,14 +525,14 @@ img {
 .footertextclr1 {
   color: #ffffff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 17px;
 }
 
 .footertextclr3 {
   color:  #CFD2D3;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -588,13 +588,13 @@ img {
 .footer__h3 {
   color: #ffffff;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1.1875rem;
   line-height: 22px;
 }
 
 .email__input {
   width: 461px;
-  height: 56px;
+  height: 61px;
   border-radius: 4px;
 }
 
@@ -646,7 +646,7 @@ img {
 
 .footertexttypebot {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 15px;
   color: #9fa4a6;
   margin: 0;

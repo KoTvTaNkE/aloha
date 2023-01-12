@@ -169,7 +169,7 @@ img {
 }
 
 .header__catalog {
-  margin-left: 345px;
+  margin-left: 315px;
   margin-right: 108px;
 }
 
@@ -409,7 +409,8 @@ img {
 }
 
 .kion__left {
-  width: 381px;
+  max-width: 381px;
+  width: 100%;
   margin-left: 105px;
   margin-top: 366px;
 }
@@ -619,13 +620,16 @@ img {
 }
 
 .footer__bot {
+  max-width: 1440px;
+  width: 100%;
   margin-top: 214px;
   display: flex;
   height: 30px;
-  width: 1440px;
+
 }
 
 .social__links {
+  width: 160px;
   display: flex;
 }
 
@@ -649,7 +653,7 @@ img {
 
 .footertexttypebot {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8125rem;
   line-height: 15px;
   color: #9fa4a6;
   margin: 0;
@@ -676,11 +680,10 @@ img {
 
 
 .video{
-  position: absolute;
-  z-index: 2;
-  width: 595px;
 
-  height: 350px;
+  width: 560px;
+
+  height: 340px;
   margin-top: -7px;
 }
 
@@ -701,13 +704,42 @@ img {
   background-color: #101c21;
 }
 
-.strel{
-  position: absolute;
-  opacity: 1;
-  z-index: 4;
-  margin-left: -10px;
-  margin-top: -20px;
 
+
+@media(max-width:1320px){
+.email{
+  margin-left: 230px;
+}
+.text__bloks{
+  margin-left: 230px;
+}
+.header__catalog {
+  margin-left:265px ;
+  margin-right: 88px;
+}
+.header__btn {
+  margin-right: 20px;
+}
+.footer__left {
+  margin-left: 80px;
 }
 
+.footerbot__text1 {
 
+  margin-left: 290px;
+}
+.social__links {
+  margin-left: 80px;
+}
+.main__logo{
+  margin-left: 50px;
+}
+}
+
+@media(max-width:1300px){
+  .kion__right {
+
+    margin-left: 214px;
+  }
+
+}
